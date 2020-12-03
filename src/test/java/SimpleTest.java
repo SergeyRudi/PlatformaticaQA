@@ -10,7 +10,7 @@ public class SimpleTest {
     @Test
     public void simpleTest() throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "d:/Work/Projects/chromedriver.exe");
+
 
         WebDriver browser = new ChromeDriver();
         browser.get("https://github.com/SergeiDemyanenko/PlatformaticaQA");
