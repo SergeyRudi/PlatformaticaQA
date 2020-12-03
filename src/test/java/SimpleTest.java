@@ -15,8 +15,7 @@ public class SimpleTest {
         WebElement name = browser.findElement(By.xpath("//strong/a"));
 
         Assert.assertEquals(name.getText(), "PlatformaticaQA");
-
-        Thread.sleep(3000);
+        Thread.sleep(2800);
         browser.close();
     }
 }
